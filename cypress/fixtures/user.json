@@ -1,0 +1,16 @@
+{
+  "email": "ui-test@mytest.com",
+  "password": "Hello1234",
+  "name": {
+    "first": "John",
+    "last": "Smith"
+  },
+  "mobileNumber": "0400000000",
+  "birthDate": "01/01/1990",
+  "address": {
+    "street":"15 Daffodil Crescent",
+    "suburb":"KELLYVILLE",
+    "state":"NSW",
+    "postcode":2155
+  }
+}
