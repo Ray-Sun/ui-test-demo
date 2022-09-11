@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": [
+        "cypress",
+        "node",
+        "cypress-grep",
+        "./cypress/support"
+      ]
+    },
+    "include": ["**/*.ts", "cypress/support/commands.ts", "cypress/support/e2e.ts"]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ui-test-demo",
+  "version": "1.0.0",
+  "description": "A demo project based on Cypress for UI testing",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rimraf reports/* reporters/.*",
+    "test": "cypress run -C ./cypress.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray-Sun/ui-test-demo.git"
+  },
+  "keywords": [],
+  "author": "Shiwei Sun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ray-Sun/ui-test-demo/issues"
+  },
+  "homepage": "https://github.com/Ray-Sun/ui-test-demo#readme",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "cypress-grep": "^3.0.3",
+    "cypress-mochawesome-reporter": "^3.2.2",
+    "cypress-multi-reporters": "^1.6.1",
+    "mocha-junit-reporter": "^2.0.2",
+    "typescript": "^4.8.2"
+  }
+}
